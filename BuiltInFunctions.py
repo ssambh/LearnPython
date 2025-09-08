@@ -32,3 +32,7 @@ print(greeting * 2)
 print(f"{greeting} my name is {name}")
 #printing the ASCII value of a character
 print(ord('S'))
+#Using an iterator to fetch the values from a dataset
+tuple = ("Apple", "Banana", "Orange")
+it = iter(tuple)
+print(next(it))

@@ -12,3 +12,7 @@ dic = {}
 dic["Name"] = "Sarang"
 dic[30] = "Age"
 print(dic)
+
+#For printing all the key-value pairs
+for a,b in dict.items():
+    print(a,b)
