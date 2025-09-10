@@ -10,7 +10,7 @@ dic = {}
 
 #inserting values in a dictionary
 dic["Name"] = "Sarang"
-dic[30] = "Age"
+dic["Age"] = 30
 print(dic)
 
 #For printing all the key-value pairs

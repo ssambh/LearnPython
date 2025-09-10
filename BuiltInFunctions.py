@@ -12,6 +12,10 @@ print(pow(b,3))
 #ranint(a,b) function outputs a random integer between the given range
 print(randint(10,100))
 
+#range() function to run a loop in a given range
+for i in range(1,100):
+    print(i)
+
 #To remove front and last whitespaces in the string.
 print(str.strip())
 #To convert a string to upper and lower case

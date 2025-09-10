@@ -1,4 +1,4 @@
-#Tuple is similar to a list but it is immutable.
+#Tuple is similar to a list, but it is immutable.
 
 tuple = ("Sarang","Sambharia")
 print(tuple)
