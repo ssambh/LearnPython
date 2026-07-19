@@ -13,6 +13,9 @@ dic["Name"] = "Sarang"
 dic["Age"] = 30
 print(dic)
 
+#Deleting a value from a dict
+del dic["Name"]
+
 #For printing all the key-value pairs
 for a,b in dict.items():
     print(a,b)
