@@ -1,5 +1,5 @@
-
-
+#List collection is ordered, meaning a list of elements maintain the insertion order of the elements
+#Lists are mutable, meaning we can add or remove elements of a list after declaration
 a = 10
 b = "Sarang"
 c = "Sambharia"
