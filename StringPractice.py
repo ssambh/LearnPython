@@ -108,5 +108,43 @@ def count_substring(s: str) -> int:
             right += 1
     return count
 
+#Find the longest palindromic substring
+def longestPalindrome(self, s: str) -> str:
+    count = 0
+    longest = ""
+    for i in range(len(s)):
+        left = i
+        right = i
+        while left >= 0 and right < len(s):
+           if s[left] == s[right]:
+                sub = s[left:right + 1]
+                if len(longest) < len(sub):
+                    longest = sub
+           else:
+                break
+           left -= 1
+           right += 1
+
+        left = i
+        right = i + 1
+        while left >= 0 and right < len(s):
+            if s[left] == s[right]:
+                sub = s[left:right + 1]
+                if len(sub) > len(longest):
+                    longest = sub
+            else:
+                break
+            left -= 1
+            right += 1
+    return longest
+
+def longestCommonPrefix(self, strs: List[str]) -> str:
+    prefix = strs[0]
+    for i in range(len(prefix)):
+        for string in strs:
+            if i == len(string) or string[i] != prefix[i]:
+               return prefix[:i]
+    return prefix
+
 strs = "abc"
 print(count_substring(strs))

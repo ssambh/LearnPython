@@ -1,0 +1,58 @@
+🧵 Part 1: Strings (15 Questions)
+String manipulation is arguably the most common topic in QA automation interviews due to text assertion and log parsing requirements.
+	1	Reverse a String: Reverse a string in place without using Python’s built-in [::-1].
+	2	Valid Palindrome: Check if a string is a palindrome, ignoring casing and non-alphanumeric characters.
+	3	First Unique Character: Find the index of the first non-repeating character in a string.
+	4	Anagram Check: Determine if two strings are anagrams of each other (e.g., "silent" and "listen").
+	5	String Compression: Implement a method to perform basic string compression using the counts of repeated characters (e.g., aabcccccaaa $\rightarrow$ a2b1c5a3).
+	6	Longest Common Prefix: Find the longest common prefix string amongst an array of strings.
+	7	Reverse Words in a String: Given an input string, reverse the order of the words (e.g., "the sky is blue" $\rightarrow$ "blue is sky the").
+	8	Count Vowels and Consonants: Count the number of vowels and consonants in a given text block.
+	9	Valid Parentheses: Given a string containing just the characters (, ), {, }, [ and ], determine if the input string is valid (Stack/String problem).
+	10	Length of Last Word: Given a string consisting of words and spaces, return the length of the last word.
+	11	Substrings Generation: Print all possible non-empty substrings of a given string.
+	12	Remove Duplicate Characters: Remove duplicate characters from a string while keeping the original order.
+	13	String to Integer (atoi): Convert a string to a 32-bit signed integer (handling whitespace, signs, and overflow).
+	14	Find All Anagrams in a String: Find all the start indices of an anagram of a pattern in a larger string.
+	15	Isomorphic Strings: Determine if two strings are isomorphic (characters in string A can be replaced to get string B).
+📊 Part 2: Arrays (15 Questions)
+Array manipulation questions test your ability to use pointers, manage indices, and clean up datasets.
+	16	Two Sum: Find two numbers in an array that add up to a specific target number.
+	17	Move Zeroes: Move all 0s to the end of an array while maintaining the relative order of the non-zero elements.
+	18	Find the Duplicate Number: Find the duplicate number in an array containing $n + 1$ integers where each integer is between $1$ and $n$.
+	19	Missing Number: Find the missing number in an array containing $n$ distinct numbers taken from $0, 1, 2, \dots, n$.
+	20	Maximum Subarray (Kadane’s Algorithm): Find the contiguous subarray which has the largest sum.
+	21	Merge Sorted Arrays: Merge two sorted arrays into one large sorted array without using extra space.
+	22	Remove Duplicates from Sorted Array: Remove duplicates in-place such that each unique element appears only once.
+	23	Best Time to Buy and Sell Stock: Find the maximum profit you can achieve from buying and selling a stock on different days.
+	24	Container With Most Water: Find two lines that together with the x-axis form a container that holds the most water.
+	25	Rotate Array: Rotate an array to the right by $k$ steps.
+	26	Majority Element: Find the element that appears more than $\lfloor n / 2 \rfloor$ times in an array.
+	27	Intersection of Two Arrays: Given two arrays, return an array of their intersection (each element must be unique).
+	28	Find Minimum in Rotated Sorted Array: Find the minimum element in an array that has been sorted and then rotated.
+	29	Product of Array Except Self: Return an array where each element is equal to the product of all elements except the one at that index (without using division).
+	30	Sort an Array of 0s, 1s, and 2s (Dutch National Flag): Sort an array containing only three distinct values in linear time.
+🔗 Part 3: Lists / Linked Lists (10 Questions)
+Linked lists are great for testing pointer manipulation, nodes tracking, and understanding memory references.
+	31	Reverse a Linked List: Reverse a singly linked list iteratively and recursively.
+	32	Detect Cycle in a Linked List: Determine if a linked list has a cycle in it (Floyd's Tortoise and Hare algorithm).
+	33	Merge Two Sorted Lists: Merge two sorted linked lists into a single sorted list.
+	34	Remove N-th Node From End of List: Remove the $n$-th node from the end of a singly linked list in a single pass.
+	35	Middle of the Linked List: Return the middle node of a linked list.
+	36	Palindrome Linked List: Check if a singly linked list forms a palindrome.
+	37	Intersection of Two Linked Lists: Find the node at which two singly linked lists intersect.
+	38	Delete Node in a Linked List: Delete a node in a singly linked list given access only to that node.
+	39	Remove Duplicates from Sorted List: Delete all duplicate nodes from a sorted linked list so elements appear once.
+	40	Flatten a Multilevel Doubly Linked List: Flatten a linked list where nodes can have a child pointer pointing to a separate list.
+🗺️ Part 4: Maps / Dictionaries (10 Questions)
+Hashing data structures are crucial for QA automation because they unlock $O(1)$ lookups, ideal for comparing massive test UI baselines against database records.
+	41	Group Anagrams: Group an array of strings together if they are anagrams of each other.
+	42	Contains Duplicate II: Determine if there are two distinct indices $i$ and $j$ in the array such that nums[i] == nums[j] and the absolute difference between $i$ and $j$ is at most $k$.
+	43	Frequency of Characters/Elements: Count the frequency of every element in an array or string and sort by highest frequency.
+	44	Subarray Sum Equals K: Find the total number of continuous subarrays whose sum equals a given target $k$ (using prefix sums and a map).
+	45	Top K Frequent Elements: Given an integer array, return the $k$ most frequent elements.
+	46	Longest Substring Without Repeating Characters: Find the length of the longest substring without repeating characters (sliding window + map).
+	47	Find All Duplicates in an Array: Use a hash map/set to track and return all elements that appear twice in an array.
+	48	Valid Sudoku: Determine if a 9x9 Sudoku board is valid based on rows, columns, and 3x3 sub-boxes.
+	49	Word Pattern: Given a pattern and a string s, find if s follows the exact same pattern (e.g., pattern abba matches "dog cat cat dog").
+	50	Design a Simple LRU Cache: Implement a Least Recently Used (LRU) cache using a Hash Map combined with a Doubly Linked List.

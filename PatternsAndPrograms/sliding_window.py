@@ -39,3 +39,32 @@ class Slidingwindow:
                 right += 1
         return count
 
+    #Find the longest palindromic substring
+    def longestPalindrome(self, s: str) -> str:
+        count = 0
+        longest = ""
+        for i in range(len(s)):
+            left = i
+            right = i
+            while left >= 0 and right < len(s):
+                if s[left] == s[right]:
+                    sub = s[left:right + 1]
+                    if len(longest) < len(sub):
+                        longest = sub
+                else:
+                    break
+                left -= 1
+                right += 1
+
+            left = i
+            right = i + 1
+            while left >= 0 and right < len(s):
+                if s[left] == s[right]:
+                    sub = s[left:right + 1]
+                    if len(sub) > len(longest):
+                        longest = sub
+                else:
+                    break
+                left -= 1
+                right += 1
+        return longest
