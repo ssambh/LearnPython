@@ -17,17 +17,17 @@ String manipulation is arguably the most common topic in QA automation interview
 	15	Isomorphic Strings: Determine if two strings are isomorphic (characters in string A can be replaced to get string B).
 📊 Part 2: Arrays (15 Questions)
 Array manipulation questions test your ability to use pointers, manage indices, and clean up datasets.
-	16	Two Sum: Find two numbers in an array that add up to a specific target number.
+	16	Two Sum: Find two numbers in an array that add up to a specific target number.- Map
 	17	Move Zeroes: Move all 0s to the end of an array while maintaining the relative order of the non-zero elements.
-	18	Find the Duplicate Number: Find the duplicate number in an array containing $n + 1$ integers where each integer is between $1$ and $n$.
-	19	Missing Number: Find the missing number in an array containing $n$ distinct numbers taken from $0, 1, 2, \dots, n$.
+	**18	Find the Duplicate Number: Find the duplicate number in an array containing n + 1 integers where each integer is between 1 and n.
+	19	Missing Number: Find the missing number in an array containing n distinct numbers taken from 0, 1, 2,..., n.
 	20	Maximum Subarray (Kadane’s Algorithm): Find the contiguous subarray which has the largest sum.
-	21	Merge Sorted Arrays: Merge two sorted arrays into one large sorted array without using extra space.
-	22	Remove Duplicates from Sorted Array: Remove duplicates in-place such that each unique element appears only once.
-	23	Best Time to Buy and Sell Stock: Find the maximum profit you can achieve from buying and selling a stock on different days.
+	21	Merge Sorted Arrays: Merge two sorted arrays into one large sorted array without using extra space. - Leetcode 88
+	22	Remove Duplicates from Sorted Array: Remove duplicates in-place such that each unique element appears only once. - Leetcode 26
+	23	Best Time to Buy and Sell Stock: Find the maximum profit you can achieve from buying and selling a stock on different days. Leetcode 121
 	24	Container With Most Water: Find two lines that together with the x-axis form a container that holds the most water.
-	25	Rotate Array: Rotate an array to the right by $k$ steps.
-	26	Majority Element: Find the element that appears more than $\lfloor n / 2 \rfloor$ times in an array.
+	25	Rotate Array: Rotate an array to the right by k steps.
+	26	Majority Element: Find the element that appears more than floor 2 floor times in an array. - Leetcode 229
 	27	Intersection of Two Arrays: Given two arrays, return an array of their intersection (each element must be unique).
 	28	Find Minimum in Rotated Sorted Array: Find the minimum element in an array that has been sorted and then rotated.
 	29	Product of Array Except Self: Return an array where each element is equal to the product of all elements except the one at that index (without using division).
